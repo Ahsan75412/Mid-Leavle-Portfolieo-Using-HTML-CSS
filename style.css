@@ -1,0 +1,93 @@
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 400;
+
+    
+}
+h2{
+    font-size: 45px;
+    font-weight:500;
+    
+}
+p{
+    color: gray;
+    padding-bottom: 30px;
+}
+
+section{
+    height: 600px;
+    
+}
+header{ 
+    background-image:url(Image/header-bg.png);
+    background-size: 1100px;
+    background-repeat: no-repeat;
+    
+}
+.namecolor{
+    color: orange;
+}
+
+.half-width{
+    margin-top: 50px;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2px;
+
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightSalmon, #FF448E);
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff ;
+    font-weight: 700;
+    
+}
+.link-button:hover{
+    background:none;
+    border: 2px solid #FF448E ;
+    color: tomato;
+
+}
+
+.half-width img{
+    height: 550px;
+    width: 100%;
+    margin-top: -60px;
+    
+}
+
+.biography-area{
+    background-image:url(Image/biography-bg.png);
+    background-size: 1300px;
+    background-repeat: no-repeat;
+}
+
+
+.work-area{
+    margin-top: 90px;
+    background-image: url(image/latest-work-bg.png);
+    text-align: center;
+   
+}
+.big{
+    font-size: 45px;
+    font-weight:500;
+}
+
+.work-area img{
+    margin-top: 20px;
+    height: 300px;
+    margin-left: 8px;
+}
